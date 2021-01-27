@@ -38,7 +38,7 @@ jobs:
           
     - name: set env and run
       env:
-          a: ${{secrets.A}}
+          pwd: ${{secrets.SEP_PASSWD}}
       run: |
           python main.py
 
