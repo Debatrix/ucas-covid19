@@ -38,7 +38,7 @@ jobs:
           
     - name: set env and run
       env:
-          a: ${{secrets.a}}
+          a: ${{secrets.A}}
       run: |
           python main.py
 
