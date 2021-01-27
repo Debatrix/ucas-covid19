@@ -8,6 +8,7 @@ on:
   push:
     branches: 
       - master
+      - Debatrix-test
   schedule:
     - cron: '10 0 * * *'
 
