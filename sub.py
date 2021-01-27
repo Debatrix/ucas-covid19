@@ -238,7 +238,7 @@ def report(username, password):
     print(datetime.now(tz=pytz.timezone("Asia/Shanghai")).strftime("%Y-%m-%d %H:%M:%S %Z"))
     for i in range(randint(10, 600), 0, -1):
         print("\r等待{}秒后填报".format(i), end='')
-        sleep(1)
+#         sleep(1)
 
     cookie_file_name = Path("{}.json".format(hashlib.sha512(username.encode()).hexdigest()[:8]))
     login(s, username, password, cookie_file_name)
