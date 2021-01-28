@@ -1,6 +1,6 @@
 import os
 import base64
-s = os.environ.get('pwd')
+s = os.environ.get('a')
 
 t = base64.b64encode(s.encode())
 print('s?',s == r"P\\bb|n4\I4;_HWG/tr'tUH3")
